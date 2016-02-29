@@ -1,0 +1,75 @@
+<?xml version="1.0"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <parent>
+	<!-- Provided Tomcat-7.0.x libs -->
+	<groupId>nl.kadaster.java-expertise</groupId>
+	<artifactId>parent-pom-tomcat7</artifactId>
+	<version>1.4.0</version>
+  </parent>
+  <groupId>nl.kadaster.pdok</groupId>
+  <artifactId>pdok-datamanagement-util</artifactId>
+  <name>PDOK Datamanagement util</name>
+  <version>1.0.0.0-SNAPSHOT</version>
+  <url>http://maven.apache.org</url>
+  <properties>
+    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    <info.cukes.version>1.0.0</info.cukes.version>
+    <slf4j.version>1.5.11</slf4j.version>
+  </properties>
+  	<dependencies>
+  		<dependency>
+			<groupId>commons-io</groupId>
+			<artifactId>commons-io</artifactId>
+			<version>1.4</version>
+		</dependency>
+		<dependency>
+			<groupId>org.apache.commons</groupId>
+			<artifactId>commons-compress</artifactId>
+			<version>1.10</version>
+		</dependency>
+		<dependency>
+			<groupId>org.apache.commons</groupId>
+			<artifactId>commons-lang3</artifactId>
+			<version>3.1</version>
+		</dependency>
+	    <dependency>
+            <groupId>org.slf4j</groupId>
+            <artifactId>slf4j-api</artifactId>
+            <version>${slf4j.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>org.slf4j</groupId>
+            <artifactId>jcl-over-slf4j</artifactId>
+            <version>${slf4j.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>org.slf4j</groupId>
+            <artifactId>slf4j-log4j12</artifactId>
+            <version>${slf4j.version}</version>
+        </dependency>
+        <!-- commons-logging can be rather simply and conveniently excluded as
+            a dependency by declaring it in the provided scope within the pom.xml file
+            of your project. The actual commons-logging classes would be provided by
+            jcl-over-slf4j. This translates into the following pom file snippet: -->
+        <!-- <dependency> <groupId>commons-logging</groupId> <artifactId>commons-logging</artifactId>
+            <version>1.1.1</version> <scope>provided</scope> </dependency> <dependency>
+            <groupId>log4j</groupId> <artifactId>log4j</artifactId> <version>1.2.16</version>
+            </dependency>
+
+        </dependency>-->
+	</dependencies>
+  	<scm>
+        <url>http://github.so.kadaster.nl/PDOK/datamanagement-util.git</url>
+        <connection>scm:git:http://github.so.kadaster.nl/PDOK/datamanagement-util.git</connection>
+        <developerConnection>scm:git:git@github.so.kadaster.nl:PDOK/datamanagement-util.git</developerConnection>
+    <tag>HEAD</tag>
+  </scm>
+  <distributionManagement>
+        <repository>
+            <id>releases-repo</id>
+            <name>Nexus Releases Repo</name>
+            <url>http://mvnrepository.so.kadaster.nl:8081/nexus/content/repositories/releases/</url>
+        </repository>
+   </distributionManagement>	
+</project>
