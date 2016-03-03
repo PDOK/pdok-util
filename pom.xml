@@ -67,7 +67,7 @@
   </scm>
   <distributionManagement>
         <repository>
-            <id>releases-repo-artifactory</id>
+            <id>releases-repo</id>
             <name>Artifactory Repo</name>
             <url>http://ota-portal.so.kadaster.nl/artifactory/mvn-release-local/</url>
         </repository>
