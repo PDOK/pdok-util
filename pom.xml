@@ -10,7 +10,7 @@
   <groupId>nl.kadaster.pdok</groupId>
   <artifactId>pdok-java-util</artifactId>
   <name>PDOK Java util</name>
-  <version>1.0.0.5-SNAPSHOT</version>
+  <version>1.0.0.4</version>
   <url>http://maven.apache.org</url>
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -63,7 +63,7 @@
         <url>http://github.so.kadaster.nl/PDOK/datamanagement-util.git</url>
         <connection>scm:git:http://github.so.kadaster.nl/PDOK/datamanagement-util.git</connection>
         <developerConnection>scm:git:git@github.so.kadaster.nl:PDOK/datamanagement-util.git</developerConnection>
-    <tag>pdok-java-util-1.0.0.1</tag>
+    <tag>pdok-java-util-1.0.0.4</tag>
   </scm>
   <distributionManagement>
         <repository>
