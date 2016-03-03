@@ -1,4 +1,4 @@
-package nl.pdok.datamanagement.util;
+package nl.pdok.java.util;
 
 import java.util.UUID;
 
