@@ -1,0 +1,14 @@
+{
+	"datasetName": "vin",
+	"dataValidFrom": "2013-10-01",
+	"dataValidTo": "2013-11-01",
+	"updateType": "FULL",
+	"files": [
+		{   "name": "vin_1.zip",
+                    "url": "http://localhost:9000/assets/dataset_vin_1.zip"
+		},
+		{   "name": "vin_2.zip",
+                    "url": "http://localhost:9000/assets/dataset_vin_2.zip"
+		}
+	]
+}
