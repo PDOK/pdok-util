@@ -67,9 +67,9 @@
         </dependency>
 	</dependencies>
   	<scm>
-        <url>http://github.so.kadaster.nl/PDOK/java-util.git</url>
-        <connection>scm:git:http://github.so.kadaster.nl/PDOK/java-util.git</connection>
-        <developerConnection>scm:git:git@github.so.kadaster.nl:PDOK/java-util.git</developerConnection>
+        <url>http://github.so.kadaster.nl/PDOK/pdok-java-util.git</url>
+        <connection>scm:git:http://github.so.kadaster.nl/PDOK/pdok-java-util.git</connection>
+        <developerConnection>scm:git:git@github.so.kadaster.nl:PDOK/pdok-java-util.git</developerConnection>
     <tag>pdok-java-util-1.0.0.5</tag>
   </scm>
   <distributionManagement>
