@@ -1,4 +1,4 @@
-package nl.pdok.java.util;
+package nl.pdok.util;
 
 import java.io.BufferedInputStream;
 import java.io.DataInputStream;

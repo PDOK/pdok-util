@@ -1,4 +1,4 @@
-package nl.pdok.java.util;
+package nl.pdok.util;
 
 public interface RandomGenerator {
     String randomString();

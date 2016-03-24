@@ -8,8 +8,8 @@
     <version>1.4.3</version>
   </parent>
   <groupId>nl.pdok</groupId>
-  <artifactId>pdok-java-util</artifactId>
-  <name>PDOK Java util</name>
+  <artifactId>pdok-util</artifactId>
+  <name>PDOK Util</name>
   <version>1.0.0.6-SNAPSHOT</version>
   <url>http://maven.apache.org</url>
   <properties>
